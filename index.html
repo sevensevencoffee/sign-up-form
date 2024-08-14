@@ -5,8 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up form</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="img-container">
+        <div class="overlay-text">
+            Botanic Doodle Studio
+        </div>
+        <img src="./british-library-MS0JT4RC9Ls-unsplash.jpg" alt="botanic-doodle" height="100%">
+    </div>
+
+    <div class="main-container">
+        <div class="main-text">
+            <p>Join us to start doodling one of nature's most precious beauties—flowers!</p>
+            <p>Step into nature and capture their simple elegance through your sketches. </p>
+            <p>Sign up below to receive more information. </p>
+           
+        </div>
+       
+        <div class="form">
+            <form>
+                <div class="form-top">
+                    <div class="left-column">
+                        <div class="form-row">
+                            <label for="first-name">First Name</label>
+                            <input id="first-name" name="first-name" type="text" required>
+                        </div>
+
+                        <div class="form-row">
+                            <label for="email">Email</label>
+                            <input id="email" name="email" type="email" required>
+                        </div>
+
+                        <div class="form-row">
+                            <label for="password">Password</label>
+                            <input id="password" name="password" type="password" required>
+                        </div>
+                    </div>
+
+                    <div class="right-column">
+                        <div class="form-row">
+                            <label for="last-name">Last Name</label>
+                            <input id="last-name" name="last-name" type="text" required>
+                        </div>
+
+                        <div class="form-row">
+                            <label for="phone-number">Phone Number</label>
+                            <input id="phont-number" name="phone-number" type="number" required>
+                        </div>
+
+                        <div class="form-row">
+                            <label for="confirm-pswd">Confirm Password</label>
+                            <input id="confirm-pswd" name="confirm-pswd" type="password" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="button">
+                    <input type="submit" value="Create Account">
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
